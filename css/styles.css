@@ -1,3 +1,6 @@
+:root {
+  --white-color: #f4f4fd;
+}
 header {
   color: #2e2f42;
 }
@@ -59,6 +62,9 @@ button {
   color: #404bbf;
 }
 /* #region Hero*/
+.hero {
+  background-color: #2e2f42;
+}
 .hero-content {
   color: #fff;
   background-color: #2e2f42;
@@ -80,12 +86,16 @@ button {
   background-color: #404bbf;
 }
 /* #region Features*/
+
 .features {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
 .features-items {
+  color: #2e2f42;
   font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   line-height: 1.2;
 }
 .features-text {
@@ -99,6 +109,8 @@ button {
   background-color: #f4f4fd;
 }
 .our-team {
+  color: #2e2f42;
+  font-weight: 500;
   font-size: 36px;
   text-align: center;
   line-height: 1.11;
@@ -107,6 +119,7 @@ button {
 }
 .our-member-name {
   background-color: #ffffff;
+  color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -118,6 +131,8 @@ button {
 }
 /* #region Portfolio*/
 .portfolio {
+  color: #2e2f42;
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.11111;
   text-align: center;
@@ -126,23 +141,24 @@ button {
   text-transform: capitalize;
 }
 .porfolio-name {
+  color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .portfolio-kind {
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* #region Footer*/
 .footer {
   background-color: #2e2f42;
 }
-.footer-first {
-  color: #4d5ae5;
-}
-.footer-second {
+.footer-logo {
   color: #f4f4fd;
 }
 .footer-text {
-  color: #fff;
+  color: var(--white-color);
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }

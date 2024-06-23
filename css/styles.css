@@ -117,6 +117,9 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.our-mamber-card {
+  background-color: #ffffff;
+}
 .our-member-name {
   background-color: #ffffff;
   color: #2e2f42;

@@ -23,3 +23,92 @@ button {
   color: currentColor;
   cursor: pointer;
 }
+/* #region Navigation*/
+.nav-item {
+  font-weight: 500;
+  line-height: 1.5;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+/* #region Logo*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  line-height: 1.17;
+  font-size: 18px;
+}
+.logo-first {
+  color: #4d5ae5;
+}
+
+/* #region Address*/
+.address-link {
+  line-height: 1.5;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+/* #region Hero*/
+.hero {
+  color: #fff;
+  background-color: #2e2f42;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+}
+.order-button {
+  color: #fff;
+  background-color: #4d5ae5;
+  line-height: 1.5;
+}
+/* #region Features*/
+.features-items {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.features-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* #region Our-team*/
+.our-team {
+  font-size: 36px;
+  text-align: center;
+}
+.our-memmber-name {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.our-member-profession {
+  line-height: 1.5;
+}
+/* #region Portfolio*/
+.portfolio {
+  font-size: 36px;
+  line-height: 1.11111;
+  text-align: center;
+}
+.porfolio-name {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.portfolio-kind {
+  line-height: 1.5;
+}
+/* #region Footer*/
+.footer {
+  background-color: #2e2f42;
+}
+.footer-first {
+  color: #4d5ae5;
+}
+.footer-second {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #fff;
+  line-height: 1.5;
+}

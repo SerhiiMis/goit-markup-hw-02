@@ -141,6 +141,9 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.portfolio-item {
+  background-color: #ffffff;
+}
 .porfolio-name {
   color: #2e2f42;
   font-size: 20px;

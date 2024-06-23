@@ -105,10 +105,10 @@ button {
   color: #434455;
 }
 /* #region Our-team*/
-.section-our-team {
+.section-team {
   background-color: #f4f4fd;
 }
-.our-team {
+.title-team {
   color: #2e2f42;
   font-weight: 500;
   font-size: 36px;
@@ -117,10 +117,10 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.our-member-card {
+.team-card {
   background-color: #ffffff;
 }
-.our-member-name {
+.team-name {
   background-color: #ffffff;
   color: #2e2f42;
   font-weight: 500;
@@ -128,14 +128,14 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.our-member-profession {
+.team-profession {
   background-color: #ffffff;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 /* #region Portfolio*/
-.portfolio {
+.title-portfolio {
   color: #2e2f42;
   font-weight: 500;
   font-size: 36px;

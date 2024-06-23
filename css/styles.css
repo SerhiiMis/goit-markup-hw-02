@@ -40,11 +40,12 @@ button {
   text-transform: uppercase;
   line-height: 1.17;
   font-size: 18px;
-  letter-spacing: 0.03em
+  letter-spacing: 0.03em;
   color: #4d5ae5;
 }
 .logo-span {
   color: #2e2f42;
+  letter-spacing: 0.03em;
 }
 
 /* #region Address*/
@@ -74,8 +75,9 @@ button {
   font-size: 16px;
   letter-spacing: 0.04em;
 }
-.order-button:hover, .order-button:focus {
-  background-color: #404BBF;
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
 }
 /* #region Features*/
 .features {
@@ -94,7 +96,7 @@ button {
 }
 /* #region Our-team*/
 .section-our-team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 .our-team {
   font-size: 36px;
@@ -104,7 +106,7 @@ button {
   text-transform: capitalize;
 }
 .our-member-name {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -122,7 +124,6 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  
 }
 .porfolio-name {
   font-size: 20px;

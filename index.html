@@ -19,17 +19,18 @@
   <body>
     <header class="page-header">
       <nav class="nav">
-        <a class="logo logo-first" href="./index.html">Web</a>
-        <a class="logo logo-second" href="./index.html">Studio</a>
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-span">Studio</span>
+        </a>
         <ul class="nav-list">
           <li class="nav-item">
-            <a class="nav-link" href="#">Studio</a>
+            <a class="nav-link" href="./index.html">Studio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="./index.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacts</a>
+            <a class="nav-link" href="./index.html">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -50,7 +51,7 @@
     </header>
     <main>
       <section class="hero">
-        <h1>Effective Solutions for Your Business</h1>
+        <h1 class="hero-content">Effective Solutions for Your Business</h1>
         <button class="order-button" type="button">Order Service</button>
       </section>
       <section>
@@ -86,7 +87,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section-our-team">
         <h2 class="our-team">Our Team</h2>
         <ul class="our-team-list">
           <li class="our-member-card">
@@ -96,7 +97,7 @@
               width="264"
               height="260"
             />
-            <h3 class="our-memmber-name">Mark Guerrero</h3>
+            <h3 class="our-member-name">Mark Guerrero</h3>
             <p class="our-member-profession">Product Designer</p>
           </li>
           <li class="our-member-card">
@@ -106,7 +107,7 @@
               width="264"
               height="260"
             />
-            <h3 class="our-memmber-name">Tom Ford</h3>
+            <h3 class="our-member-name">Tom Ford</h3>
             <p class="our-member-profession">Frontend Developer</p>
           </li>
           <li>
@@ -116,7 +117,7 @@
               width="264"
               height="260"
             />
-            <h3 class="our-memmber-name">Camila Garcia</h3>
+            <h3 class="our-member-name">Camila Garcia</h3>
             <p class="our-member-profession">Marketing</p>
           </li>
           <li class="our-member-card">
@@ -126,81 +127,75 @@
               width="264"
               height="260"
             />
-            <h3 class="our-memmber-name">Daniel Wilson</h3>
+            <h3 class="our-member-name">Daniel Wilson</h3>
             <p class="our-member-profession">UI Designer</p>
           </li>
         </ul>
       </section>
       <section>
         <h2 class="portfolio">Our Portfolio</h2>
-        <div class="portfolio-part">
-          <ul class="portfolio-list">
-            <li class="portfolio-item">
-              <img
-                src="./images/5.jpg"
-                alt="Image with the banking application interface"
-                width="360"
-                height="300"
-              />
-              <h3 class="porfolio-name">Banking App</h3>
-              <p class="portfolio-kind">App</p>
-            </li>
-            <li class="portfolio-item">
-              <img
-                src="./images/6.jpg"
-                alt="Image with non-cash payment by phone"
-                width="360"
-                height="300"
-              />
-              <h3 class="porfolio-name">Cashless Payment</h3>
-              <p class="portfolio-kind">Marketing</p>
-            </li>
-            <li class="portfolio-item">
-              <img
-                src="./images/7.jpg"
-                alt="Image with notebook and phone"
-                width="360"
-                height="300"
-              />
-              <h3 class="porfolio-name">Meditation App</h3>
-              <p class="portfolio-kind">App</p>
-            </li>
-          </ul>
-        </div>
-        <div class="portfolio-part">
-          <ul>
-            <li class="portfolio-item">
-              <img
-                src="./images/8.jpg"
-                alt="Image with car driver"
-                width="360"
-                height="300"
-              />
-              <h3 class="porfolio-name">Taxi Service</h3>
-              <p class="portfolio-kind">Marketing</p>
-            </li>
-            <li class="portfolio-item">
-              <img
-                src="./images/9.jpg"
-                alt="Image with wallpapers for the phone"
-                width="360"
-                height="300"
-              />
-              <h3 class="porfolio-name">Screen Illustration</h3>
-              <p class="portfolio-kind">Design</p>
-            </li>
-            <li class="portfolio-item">
-              <img
-                src="./images/10.jpg"
-                alt="Image with a happy woman"
-                width="360"
-                height="300"
-              />
-              <h3 class="porfolio-name">Online Courses</h3>
-              <p class="portfolio-kind">Marketing</p>
-            </li>
-          </ul>
-        </div>
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
+            <img
+              src="./images/5.jpg"
+              alt="Image with the banking application interface"
+              width="360"
+              height="300"
+            />
+            <h3 class="porfolio-name">Banking App</h3>
+            <p class="portfolio-kind">App</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/6.jpg"
+              alt="Image with non-cash payment by phone"
+              width="360"
+              height="300"
+            />
+            <h3 class="porfolio-name">Cashless Payment</h3>
+            <p class="portfolio-kind">Marketing</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/7.jpg"
+              alt="Image with notebook and phone"
+              width="360"
+              height="300"
+            />
+            <h3 class="porfolio-name">Meditation App</h3>
+            <p class="portfolio-kind">App</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/8.jpg"
+              alt="Image with car driver"
+              width="360"
+              height="300"
+            />
+            <h3 class="porfolio-name">Taxi Service</h3>
+            <p class="portfolio-kind">Marketing</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/9.jpg"
+              alt="Image with wallpapers for the phone"
+              width="360"
+              height="300"
+            />
+            <h3 class="porfolio-name">Screen Illustration</h3>
+            <p class="portfolio-kind">Design</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/10.jpg"
+              alt="Image with a happy woman"
+              width="360"
+              height="300"
+            />
+            <h3 class="porfolio-name">Online Courses</h3>
+            <p class="portfolio-kind">Marketing</p>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">

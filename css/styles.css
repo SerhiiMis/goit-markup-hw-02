@@ -1,5 +1,25 @@
+header {
+  color: #2e2f42;
+}
 body {
-    font-family:'Courier New', Courier, monospace;
-    color: aliceblue;
-    background: #fff;;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #2e2f42;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+address {
+  font-style: normal;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
 }
